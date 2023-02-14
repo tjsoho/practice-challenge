@@ -113,6 +113,7 @@ p {
     max-height: 200px;
 }
 
+/* Created a header class to reduce the amount of CSS needed for h2 */
 .article-h2-header {
     margin-bottom: 20px;
     font-size: 36px;
@@ -129,6 +130,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Changed the top margins so that the text was line with the article texts*/
 #benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -151,6 +153,7 @@ p {
     text-align: center;
 }
 
+/* Created a class for all images in the aside to simplify CSS */
 .aside-image {
     display: block;
     margin: 5px auto;
