@@ -59,11 +59,13 @@ p {
 }
 
 .float-left {
+    max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    max-height: 200px;
     float: right;
     margin-left: 25px;
 }
@@ -74,43 +76,14 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+/* consolidated code to have 1 style for all 3 artcle boxes*/
+.article-box {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
 }
 
 /* Created a header class to reduce the amount of CSS needed for h2 */
@@ -119,6 +92,7 @@ p {
     font-size: 36px;
 }
 
+/* adjusted the height of the aside column so that it matched the article column to be visually aligned*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -130,7 +104,12 @@ p {
     background-color: #2589bd;
 }
 
-/* Changed the top margins so that the text was line with the article texts*/
+/* Changed the top margins so that the text was inline with the article texts*/
+.aside-header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 #benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -144,14 +123,10 @@ p {
 
 .benefit-cost {
     margin-bottom: 32px;
-    margin-top: 60px;
+    margin-top: 70px;
     color: #ffffff;
 }
 
-.aside-header {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 /* Created a class for all images in the aside to simplify CSS */
 .aside-image {
