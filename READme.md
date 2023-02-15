@@ -32,7 +32,7 @@ With this in mind I have made the following changes:
 
 Below is a screenshot of what the site looks like now.
 
-
+![Alt text](Assets/Horiseon%20Marketing%20Agency%20Mockup.png)
 
 ## Authors
 
